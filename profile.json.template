@@ -1,0 +1,75 @@
+{
+  "personal": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@example.com",
+    "phone": "+1-555-0123",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA"
+    }
+  },
+  "professional": {
+    "title": "Senior Software Engineer",
+    "summary": "Experienced software engineer with 5+ years of experience in full-stack development. Passionate about building scalable systems and mentoring junior engineers.",
+    "yearsExperience": 5
+  },
+  "workHistory": [
+    {
+      "company": "Tech Corp",
+      "title": "Senior Software Engineer",
+      "startDate": "2021-06-01",
+      "endDate": "Present",
+      "description": "Led development of microservices architecture, reduced API response time by 40%, mentored 3 junior engineers."
+    },
+    {
+      "company": "StartUp Inc",
+      "title": "Software Engineer",
+      "startDate": "2019-03-01",
+      "endDate": "2021-05-31",
+      "description": "Built full-stack features for SaaS platform, implemented CI/CD pipeline, improved test coverage to 85%."
+    }
+  ],
+  "education": [
+    {
+      "school": "State University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "graduationDate": "2019-05-15"
+    }
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "PostgreSQL",
+    "MongoDB",
+    "Git"
+  ],
+  "availability": {
+    "startDate": "2026-06-01",
+    "noticePeriod": 14
+  },
+  "compensation": {
+    "currency": "USD",
+    "salaryMin": 120000,
+    "salaryMax": 180000
+  },
+  "visaStatus": "U.S. Citizen",
+  "files": {
+    "resume": "/path/to/resume.pdf",
+    "coverLetter": "/path/to/cover_letter.docx"
+  },
+  "preferences": {
+    "remotePreference": "Remote",
+    "workplaceType": [
+      "startup",
+      "scale-up",
+      "enterprise"
+    ]
+  }
+}
