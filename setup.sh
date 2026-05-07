@@ -20,15 +20,15 @@ pip install -q -r requirements.txt
 
 # Create .env if not exists
 if [ ! -f ".env" ]; then
-    echo "⚙️  Creating .env file (copy from .env.example)..."
-    cp .env.example .env
+    echo "⚙️  Creating .env file (copy from config/.env.example)..."
+    cp config/.env.example .env
     echo "⚠️  Please edit .env and add your LLM_API_KEY"
 fi
 
 # Create profile.json if not exists
 if [ ! -f "profile.json" ]; then
     echo "👤 Creating profile.json (copy from template)..."
-    cp profile.json.template profile.json
+    cp config/profile.json.template profile.json
     echo "⚠️  Please edit profile.json with your information"
 fi
 

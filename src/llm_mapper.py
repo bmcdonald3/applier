@@ -5,8 +5,8 @@ LLM-based field mapping: Send form schema and profile to LLM for intelligent map
 import json
 from typing import Any, Dict, List, Optional
 import requests
-from config import LLM_API_KEY, LLM_MODEL, LLM_API_BASE, LLM_TEMPERATURE, LLM_TIMEOUT
-from logger import logger
+from .config import LLM_API_KEY, LLM_MODEL, LLM_API_BASE, LLM_TEMPERATURE, LLM_TIMEOUT
+from .logger import logger
 
 
 class LLMMapper:

@@ -6,8 +6,8 @@ import json
 import os
 from datetime import datetime, timedelta
 from typing import Any, Dict, Optional
-from config import SESSION_FILE, CHECKPOINT_FILE, SESSION_EXPIRY_HOURS
-from logger import logger
+from .config import SESSION_FILE, CHECKPOINT_FILE, SESSION_EXPIRY_HOURS
+from .logger import logger
 
 
 class SessionManager:

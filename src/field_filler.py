@@ -8,8 +8,8 @@ import json
 from typing import Any, Dict, Optional
 from pathlib import Path
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError
-from config import FIELD_FILL_DELAY_MIN, FIELD_FILL_DELAY_MAX
-from logger import logger
+from .config import FIELD_FILL_DELAY_MIN, FIELD_FILL_DELAY_MAX
+from .logger import logger
 
 
 class FieldFiller:

@@ -29,7 +29,7 @@ CHECKPOINT_INTERVAL = int(os.getenv("CHECKPOINT_INTERVAL", "3"))  # Save every N
 # Session Configuration
 SESSION_EXPIRY_HOURS = int(os.getenv("SESSION_EXPIRY_HOURS", "24"))
 
-# File Paths
+# File Paths (relative to project root)
 PROFILE_FILE = os.getenv("PROFILE_FILE", "profile.json")
 SESSION_FILE = os.getenv("SESSION_FILE", ".session.json")
 CHECKPOINT_FILE = os.getenv("CHECKPOINT_FILE", ".checkpoint.json")

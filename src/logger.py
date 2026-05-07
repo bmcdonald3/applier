@@ -6,7 +6,7 @@ import json
 import sys
 from datetime import datetime
 from typing import Any, Dict, Optional
-from config import LOG_FILE
+from .config import LOG_FILE
 
 
 class ApplicationLogger:

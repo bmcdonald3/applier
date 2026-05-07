@@ -4,7 +4,7 @@ Validation handler: Detect and handle form validation errors.
 
 from typing import Any, Dict, List, Optional
 from playwright.sync_api import Page
-from logger import logger
+from .logger import logger
 
 
 class ValidationHandler:
